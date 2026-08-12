@@ -33,7 +33,7 @@ Changed the server hostnameto the company name (Nexatech).
 
 Installed the openssh server because i am using VirtualBox
 
-![Installed Openssh](Screenshot/Installing%20SSH)
+![Installed Openssh](..Screenshot/Installing%20SSH)
 
 ### 4. Secured SSH
 
@@ -53,7 +53,7 @@ I connected to the ubuntu server from another terminal using Termius to verify t
 
 The connection was tested using the configured SSH port.
 
-![SSH Configuration](Screenshot/SSh%20Configuration.png)
+![SSH Configuration](..Screenshot/SSh%20Configuration.png)
 
 ### 5. Created Users and Groups
 
@@ -67,7 +67,7 @@ Created the following groups:
 
 Created users and assigned them to their respective groups.
 
-![Created Users and Groups](Screenshot/Users%20and%20Groups.png)
+![Created Users and Groups](..Screenshot/Users%20and%20Groups.png)
 
 ### 6. Created the Company Directory Structure
 
@@ -85,7 +85,7 @@ Company/
 ├── hr  
 └── intern
 ```
-[Company Directory](Screenshot/Company$20Directories)
+[Company Directory](..Screenshot/Company$20Directories)
 
 ### 7. Assigned Directory Permissions
 
@@ -105,7 +105,7 @@ I then test access to do company directories.
 
 The test was successful, confirming that the assigned permissions were working as intended.
 
-[Tested Permississions](Screenshot/Testing$20Permission$20for%20Directory) 
+[Tested Permississions](..Screenshot/Testing$20Permission$20for%20Directory) 
 
 
 ## PROBLEMS ENCOUNTERED 
