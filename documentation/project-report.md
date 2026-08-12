@@ -53,7 +53,7 @@ I connected to the ubuntu server from another terminal using Termius to verify t
 
 The connection was tested using the configured SSH port.
 
-![SSH Configuration](../Screenshot/SSh%20Configuration.png)
+![SSH Configuration](../Screenshot/SSH%20Configuration.png)
 
 ### 5. Created Users and Groups
 
@@ -85,7 +85,7 @@ Company/
 ├── hr  
 └── intern
 ```
-[Company Directory](../Screenshot/Company$20Directories.png)
+[Company Directory](../Screenshot/Company%20Directories.png)
 
 ### 7. Assigned Directory Permissions
 
@@ -105,7 +105,7 @@ I then test access to do company directories.
 
 The test was successful, confirming that the assigned permissions were working as intended.
 
-[Tested Permississions](../Screenshot/Testing$20Permission$20for%20Directory.png) 
+[Tested Permississions](../Screenshot/Testing%20Permission%20for%20Directory.png) 
 
 
 ## PROBLEMS ENCOUNTERED 
