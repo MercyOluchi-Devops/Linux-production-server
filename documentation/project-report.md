@@ -1,4 +1,4 @@
-x# LINUX-PRODUCTION-SERVER PROJECT
+# LINUX-PRODUCTION-SERVER PROJECT
 
 ## PROJECT SCENARIO
 
@@ -101,6 +101,76 @@ I then test access to do company directories.
 
 The test was successful, confirming that the assigned permissions were working as intended.
 
+### 9. Install Nginx
+
+After testing the directory permissions, the next step was to install Nginx on the Ubuntu Linux server.
+
+Nginx was installed to provide the webserver environment needed to host the portfolio website.
+
+After installation, the Nginx service was checked to confirm that it was running successfully.
+
+### 10. Preparing the Website Files
+
+The portfolio website contained the following files:
+- index.html
+- style.css
+- script.js
+
+The index.html, style.css, and script.js files were the files required to display and run the website.
+
+The website files were placed in the Nginx web directory at /var/www/html/.
+
+The contents of the directory were checked and the portfolio files were confirmed to be present.
+
+### 11. Nginx Service Verification
+
+The Nginx service was checked after the website files were placed in the web directory.
+
+The service was confirmed to be active and running, showing that the Nginx web server was functioning correctly.
+
+The default Nginx page file was also encountered in the web directory. Since the portfolio had its own index.html, the portfolio's index.html was used as the main webpage.
+
+### 12. Obtaining the Server IP Address
+
+The IP address assigned to the Ubuntu virtual machine was obtained.
+
+This IP address was required to access the website from the laptop while the website was being hosted on the VirtualBox server.
+
+### 13. Testing the Hosted Website
+
+The Ubuntu server's IP address was entered into the laptop's web browser.
+
+The portfolio website successfully opened in the browser.
+
+This confirmed that:
+
+- Nginx was running correctly.
+
+- The portfolio files were in the correct web directory.
+
+- The Ubuntu server was successfully serving the website.
+
+- The website could be accessed through the server's IP address.
+
+### 14. Git and GitHub Verification
+
+After successfully testing the hosted website, the Git repository was checked.
+
+The repository showed that the branch was up to date with origin/main and that the working tree was clean.
+
+This confirmed that there were no uncommitted changes that needed to be pushed to GitHub at that time.
+
+### 15. Website Hosting Result
+
+The portfolio website was successfully hosted on the Ubuntu Linux server using Nginx.
+
+The website was accessed through the Ubuntu virtual machine's IP address and successfully displayed in a browser.
+
+This completed the website-hosting stage of the Linux Production Server Project.
+
+
+ 
+
 
 
 ## PROBLEMS ENCOUNTERED 
@@ -115,7 +185,17 @@ I forgot to remove the `#` from the new port line in the SSH configuration file.
 
 Solution:
 
-Removed the `#` , restarted the SSH service,vand verified that SSH was listening on the new port. 
+Removed the `#` , restarted the SSH service, and verified that SSH was listening on the new port.
+
+### Accessing Images
+
+I had difficulty accessing the images stored on my  laptop from the Ubuntu server in VirtualBox. The images were not showing because the VirtualBox shared-folder feature was not working properly.
+
+Resolution:
+
+I installed and configured the required VirtualBox Guest Additions. After that, the shared files became accessible from Ubuntu, and I was able to see the images.
+
+
 
 ---
 
