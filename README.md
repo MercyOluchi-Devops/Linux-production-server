@@ -25,6 +25,7 @@ The goal is to configure  an ubutu serverfor hosting a company website while app
 - Powershell
 - Termius
 - Bash
+- Nginx
 
 ## Work Completed
 
@@ -36,7 +37,12 @@ The goal is to configure  an ubutu serverfor hosting a company website while app
 - Tested directory access using another user
 - Connected to the server remotely using PowerShell
 - Verified that the assigned permissions worked correctly
-- Configured and secured SSH
+- Configured and secured SSHInstalled and configured Nginx
+- Deployed the portfolio website to the Nginx web directory
+- Verified that Nginx was active and running
+- Accessed the hosted portfolio using the server IP address
+- Successfully tested the website in a web browser
+- Verified the Git repository was up to date with GitHub 
 - Documented the setup and troubleshooting process
 
 ## Project Structure
