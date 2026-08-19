@@ -1,0 +1,28 @@
+======================================
+     LINUX SERVER HEALTH CHECK
+======================================
+
+DATE:
+Sat Aug 15 06:49:35 PM UTC 2026
+
+UPTIME:
+ 18:49:35 up  7:10,  2 users,  load average: 0.15, 0.10, 0.04
+
+DISK USAGE:
+Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  4.7G  6.0G  45% /
+
+MEMORY USAGE:
+               total        used        free      shared  buff/cache   available
+Mem:           1.9Gi       365Mi       1.1Gi       1.1Mi       622Mi       1.6Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+NGINX STATUS:
+Nginx: RUNNING
+
+SSH STATUS:
+SSH: RUNNING
+
+======================================
+       HEALTH CHECK COMPLETE
+======================================
