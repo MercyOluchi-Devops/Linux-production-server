@@ -14,6 +14,7 @@ The goal is to configure  an ubutu serverfor hosting a company website while app
 - Create and organize company directories
 - Configure and secure SSH
 - Test remote access
+- Host a website using Nginx
 - Document the server configuration
 
 ## Technologies Used
@@ -26,6 +27,9 @@ The goal is to configure  an ubutu serverfor hosting a company website while app
 - Termius
 - Bash
 - Nginx
+- Cron
+- UFW
+- Server Monitoring & Alerting
 
 ## Work Completed
 
@@ -42,7 +46,12 @@ The goal is to configure  an ubutu serverfor hosting a company website while app
 - Verified that Nginx was active and running
 - Accessed the hosted portfolio using the server IP address
 - Successfully tested the website in a web browser
-- Verified the Git repository was up to date with GitHub 
+- Verified the Git repository was up to date with GitHub
+- Bash backup script creation
+- Backup testing and verification
+- Cron job automation
+- Server health checks
+- Server security configuration 
 - Documented the setup and troubleshooting process
 
 ## Project Structure

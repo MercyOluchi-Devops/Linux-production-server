@@ -168,7 +168,59 @@ The website was accessed through the Ubuntu virtual machine's IP address and suc
 
 This completed the website-hosting stage of the Linux Production Server Project.
 
+### 16. Backup Automation
 
+To protect important project files, an automated backup script was created.
+
+The backup script is located in:
+
+scripts/backup.sh
+
+The script was given executable permission using:
+
+```
+chmod +x scripts/backup.sh
+```
+The script was then executed manually to confirm that the backup process was working correctly.
+
+The backup process successfully created a backup and displayed a completion message with the backup timestamp.
+
+### 17. Backup Verification
+The backup directory was checked after running the backup script to confirm that the backup files were being created successfully.
+
+This helped verify that the backup script was functioning as expected before automating the process.
+
+### 18. Cron Job Automation
+Cron was used to automate the backup process.
+
+Cron allows scheduled tasks to run automatically at specified times without requiring the user to manually execute the command each time.
+
+The backup script can therefore be scheduled to run automatically at a defined interval.
+
+The cron jobs for the current user can be checked using:
+
+```
+crontab -l
+```
+Cron was considered as part of the server automation process to ensure that backups can be performed regularly.
+
+### 19. Server Configuration Verification
+After configuring the server, the major components were checked to confirm that they were working correctly.
+
+The following areas were verified:
+
+- SSH configuration
+- SSH security settings
+- User and group permissions
+- Project directory permissions
+- Nginx web server
+- Website files
+- Website accessibility
+- Backup script
+- Backup directory
+- Cron configuration
+
+These checks helped confirm that the server was functioning as a basic production-style Linux environment.
  
 
 
@@ -202,6 +254,8 @@ I installed and configured the required VirtualBox Guest Additions. After that, 
 ## LESSONS LEARNED
 
 - Always verify SSH configuration before restarting the service.
+- How cron can automate repititive tasks.
+- The importance of regularly backing up important server data.
 - Proper documentation makes troubleshooting easier.
 
 
