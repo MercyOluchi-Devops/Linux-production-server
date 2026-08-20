@@ -98,7 +98,3 @@ linux-production-server/
 Detailed implementation steps, permission configuration, and troubleshooting can be found in:
 
 documentation/project-report.md
-
-## Status 
-
-Project in progress
