@@ -4,7 +4,7 @@
 
 This project simulates preparing a linux production server for NEXATECH, a fictional company. 
 
-The goal is to configure  an ubutu serverfor hosting a company website while appiying Linux system administration,user management, file permissions, and security practices.
+The goal is to configure  an ubuntu server for hosting a company website while applying Linux system administration,user management, file permissions, and security practices.
 
 ## Objectives
 
@@ -15,6 +15,11 @@ The goal is to configure  an ubutu serverfor hosting a company website while app
 - Configure and secure SSH
 - Test remote access
 - Host a website using Nginx
+- Backup automation
+- Task scheduling
+- Firewall configuration
+- Server monitoring
+- Troubleshooting
 - Document the server configuration
 
 ## Technologies Used
@@ -30,6 +35,7 @@ The goal is to configure  an ubutu serverfor hosting a company website while app
 - Cron
 - UFW
 - Server Monitoring & Alerting
+- HTML/CSS/JavaScript
 
 ## Work Completed
 
@@ -51,26 +57,40 @@ The goal is to configure  an ubutu serverfor hosting a company website while app
 - Backup testing and verification
 - Cron job automation
 - Server health checks
-- Server security configuration 
+- Automated server health monitoring
+- Server health logging
+- UFW firewall configuration
+- Firewall verification
+- Automated alert checking
+- Final server verification 
 - Documented the setup and troubleshooting process
 
 ## Project Structure
 
 ```text
-Linux-production-server/
+linux-production-server/
 │
 ├── README.md
 │
 ├── documentation/
-│   └── project-report.md
+│   └── project-documentation.md
 │
-├── screenshots/
+├── scripts/
+│   ├── backup.sh
+│   ├── server_health.sh
+│   └── server_alert.sh
+│
+├── backup/
+│   └── automated/
 │
 ├── logs/
+│   ├── server_health.log
+│   └── server_alerts.log
 │
-├── backups/
-│
-└── scripts/ 
+└── website/
+    ├── index.html
+    ├── style.css
+    └── script.js
 ```
 
 ## Documentation

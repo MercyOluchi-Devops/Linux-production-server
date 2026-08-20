@@ -40,3 +40,33 @@ echo ""
 echo "======================================"
 echo "       HEALTH CHECK COMPLETE"
 echo "======================================"
+
+
+
+#!/bin/bash
+
+echo "===== NEXATech Server Health Check ====="
+echo "Date: $(date)"
+echo
+
+echo "--- Uptime ---"
+uptime
+echo
+
+echo "--- Memory ---"
+free -h
+echo
+
+echo "--- Disk Usage ---"
+df -h /
+echo
+
+echo "--- SSH Status ---"
+systemctl is-active ssh
+echo
+
+echo "--- Nginx Status ---"
+systemctl is-active nginx
+echo
+
+echo "===== Health Check Complete ====="
