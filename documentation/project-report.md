@@ -38,7 +38,7 @@ Created the linux production server project folder for documentation and initial
 
 ### 2. Changed the Hostname
 
-Changed the server hostnameto the company name (Nexatech).
+Changed the server hostname to the company name (Nexatech).
 
 ### 3. Installed Openssh
 
@@ -98,17 +98,17 @@ Company/
 
 Assigned appropriate linux permissions to the company directories.
 
-permissions were configured based on user and group access erquiremnts. 
+permissions were configured based on user and group access requiremnts. 
 
-This ensured that uses could access the directories they were authrized to use while restricting unauthourized access.
+This ensured that users could access the directories they were authorized to use while restricting unauthourized access.
 
 ### 8. Tested Directory Permissions
 
 After assigning the permissions, i tested the configuration using another user account.
 
-I connected to the Ubuntu server from windows poweshell use SSHa with different linux user.
+I connected to the Ubuntu server from windows powershell use SSH with different linux user.
 
-I then test access to do company directories.
+I then test access to the company directories.
 
 The test was successful, confirming that the assigned permissions were working as intended.
 
@@ -196,11 +196,13 @@ The script was then executed manually to confirm that the backup process was wor
 The backup process successfully created a backup and displayed a completion message with the backup timestamp.
 
 ### 17. Backup Verification
+
 The backup directory was checked after running the backup script to confirm that the backup files were being created successfully.
 
 This helped verify that the backup script was functioning as expected before automating the process.
 
 ### 18. Cron Job Automation
+
 Cron was used to automate the backup process.
 
 Cron allows scheduled tasks to run automatically at specified times without requiring the user to manually execute the command each time.
@@ -261,7 +263,8 @@ Nginx was also checked to confirm that the web server remained active after the 
 
 The listening network ports were checked using:
 
-sudo ss -tulnp
+```sudo ss -tulnp
+```
 
 The verification confirmed that the firewall configuration did not prevent the required server services from operating.
 

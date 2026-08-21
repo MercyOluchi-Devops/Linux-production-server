@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG="/home/mercy/Linux-Production-Server/logs/server_alerts.log"
+LOG="/home/mercy/linux-production-server/logs/server_alerts.log"
 
 # Check SSH
 if ! systemctl is-active --quiet ssh; then
